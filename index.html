@@ -2,23 +2,32 @@
 <html lang="en-US">
 
 <head>
-<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 
-<script>
-
-  window.OneSignal = window.OneSignal || [];
-
-  OneSignal.push(function() {
-
-    OneSignal.init({
-
-      appId: "07083098-372b-41e3-9871-b9b03337a14c",
-
-    });
-
-  });
-
+<script type="application/javascript" 
+    src="https://sdki.truepush.com/sdk/v2.0.3/app.js" 
+    async></script>
+    <script>
+var truepush = window.truepush || [];
+truepush.push(function(){
+    truepush.Init({
+        id: "621d86c087f8458db0e4a9e0"
+        }, function(error){
+            if(error) console.error(error);
+        })
+    })
 </script>
+ 
+
+
+
+   
+
+   
+
+
+
+
+
 <title>S<title> Online Editor</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
